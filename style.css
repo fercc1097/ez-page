@@ -4734,3 +4734,43 @@ table .cart-subtotal {
   width: 142px;
   object-fit: cover;
 }
+.hero-sm-title{
+  display: none;
+}
+.video-section-left{
+  background-position: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .video-container .container{
+    margin: 10% 10%;
+  }
+  .slider-content{
+    display: flex;
+    align-items: center ;
+  }
+  .slider-content h1{
+    margin-top: 10px;
+  }
+  .slider-content .btn-primary{
+    display: none;
+  }
+  .hero-g-title{
+    display: none;
+  }
+  .hero-sm-title{
+    display: block;
+  }
+  img, video {
+    height: auto;
+    max-width: unset;
+}
+}
+
+@media only screen and (max-width: 500px) {
+
+  .slider-content h1{
+    width: 80vw;
+    font-size: 70px ;
+  }
+}
