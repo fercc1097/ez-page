@@ -4740,6 +4740,9 @@ table .cart-subtotal {
 .video-section-left{
   background-position: center;
 }
+.topbar-left li{
+  cursor: pointer;
+}
 
 @media only screen and (max-width: 800px) {
   .video-container .container{
