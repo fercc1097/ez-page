@@ -2,8 +2,8 @@
 if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "contact@industris.com";
-    $email_subject = "Your email subject line";
+    $email_to = "info@ezenergyrmm.com";
+    $email_subject = "Gracias por contactarnos";
  
     function died($error) {
         // your error code can go here
@@ -75,7 +75,7 @@ $headers = 'From: '.$email_from."\r\n".
  
 <!-- include your own success html here -->
  
-Thank you for contacting us. We will be in touch with you very soon.
+Gracias por contactarnos, uno de nuestros representantes se comunicara contigo brevemente.
  
 <?php
  
